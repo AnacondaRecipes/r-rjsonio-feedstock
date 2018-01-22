@@ -10,8 +10,8 @@ package:
 source:
   fn: RJSONIO_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/RJSONIO_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/RJSONIO/RJSONIO_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/RJSONIO_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/RJSONIO/RJSONIO_{{ version }}.tar.gz
   sha256: 119334b7761c6c1c3cec52fa17dbc1b72eaebb520c53e68d873dea147cf48fb7
 
 
